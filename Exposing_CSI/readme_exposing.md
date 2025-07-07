@@ -8,7 +8,7 @@ python CSI_phase_sanitization_signal_preprocessing.py ../input_files/S1a/ 1 - 1 
 ```bash
 python CSI_phase_sanitization_H_estimation.py <'directory of the input data'> <'process all the files in subdirectories (1) or not (0)'> <'name of the file to process (only if 0 in the previous field)'> <'number of spatial streams'> <'number of cores'> <'index where to start the processing for each stream'> <'index where to stop the processing for each stream'> 
 ```
-e.g., python CSI_phase_sanitization_H_estimation.py ../input_files/S1a/ 0 S1a_E 1 4 0 -1
+e.g., python CSI_phase_sanitization_H_estimation.py ./phase-processing/S1a/ 0 S1a_E 1 4 0 -1
 
 ```bash
 python CSI_phase_sanitization_signal_reconstruction.py <'directory of the processed data'> <'directory to save the reconstructed data'> <'number of spatial streams'> <'number of cores'> <'index where to start the processing for each stream'> <'index where to stop the processing for each stream'> 
